@@ -1,0 +1,15 @@
+#calculator-screen {
+    border: 1px black solid;
+    width: 100px;
+    height: 100px;
+}
+
+#calculator {
+    height: auto;
+    width: auto;
+}
+
+#calculator-container {
+    height: auto;
+    width: auto;
+}
