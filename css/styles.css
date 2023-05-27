@@ -1,15 +1,41 @@
 #calculator-screen {
     border: 1px black solid;
-    width: 100px;
-    height: 100px;
+    border-radius: 5px;
+    width: auto;
+    height: 50px;
 }
 
 #calculator {
     height: auto;
-    width: auto;
+    width: 300px;
+    border: 1px black solid;
+    padding: 10px;
 }
 
 #calculator-container {
     height: auto;
     width: auto;
+}
+
+.button {
+    border: 1px black solid;
+    min-height: 50px;
+    min-width: 50px;
+    flex: auto;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#decimal-button {
+
+    max-width: 50px;
+}
+
+.row, #delete-container, #buttons-container {
+    display: flex;
+}
+
+#operator-buttons {
+    display: flex;
+    flex-direction: column;
 }
